@@ -29,5 +29,4 @@ carBuyer.emit('testDrive', 'Tesla Model 3');
 carBuyer.emit('negotiatePrice', 'Tesla Model 3', 28000); 
 carBuyer.emit('finalizeDeal', 'Tesla Model 3', 26500); 
 carBuyer.emit('bringHome','Tesla Model 3');
-carBuyer.emit('celebratePurchase', 'Tesla Model 3'); 
- 
+carBuyer.emit('celebratePurchase', 'Tesla Model 3');

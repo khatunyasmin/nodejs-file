@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marks Percentage Calculator</title>
+    <style>
+        body {
+            background-color: rgba(115, 0, 255, 0.686);
+        }
+        #p1 {
+            color: orange;
+            text-align: center;
+            border-radius: 8px;
+            border-width: 10px;
+            box-shadow: 1px 2px 3px deepskyblue;
+            width: 750px;
+            margin-left: 550px;
+            font-size: 55px;
+        }
+        .s1 {
+            font-size: 50px;
+            border: 2px orange;
+            box-shadow: 1px 2px 3px deepskyblue;
+            border-radius: 10px;
+            border-width: 20px;
+            width: 80%;
+            padding: 35px;
+            background-color: blueviolet;
+            margin: 15px;
+            margin-left: 200px;
+        }
+        #from {
+            text-align: center;
+            margin-left: 800px;
+            font-size: 30px;
+            border-radius: 5px;
+            color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="p1">MARKS PERCENTAGE CALCULATOR</h2>
+    <form method="post" action="http://localhost:7000/calculatePercentage" class="s1">
+        <table cellspacing="2" cellpadding="2" align="center" border="1">
+            <tr>
+                <td>Student 1 Marks</td>
+                <td><input type="text" name="student1Marks"></td>
+            </tr>
+            <tr>
+                <td>Student 2 Marks</td>
+                <td><input type="text" name="student2Marks"></td>
+            </tr>
+            <tr>
+                <td>Student 3 Marks</td>
+                <td><input type="text" name="student3Marks"></td>
+            </tr>
+            <tr>
+                <td>Student 4 Marks</td>
+                <td><input type="text" name="student4Marks"></td>
+            </tr>
+            <tr>
+                <td>Student 5 Marks</td>
+                <td><input type="text" name="student5Marks"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Calculate Percentage" id="from">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

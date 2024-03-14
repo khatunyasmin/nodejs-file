@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle Area Calculator</title>
+    <style>
+        body {
+            background-color: rgba(115, 0, 255, 0.686);
+        }
+
+        #p1 {
+            color: orange;
+            text-align: center;
+            border-radius: 8px;
+            border-width: 10px;
+            box-shadow: 1px 2px 3px deepskyblue;
+            width: 750px;
+            margin-left: 550px;
+            font-size: 55px;
+        }
+
+        .s1 {
+            font-size: 50px;
+            border: 2px orange;
+            box-shadow: 1px 2px 3px deepskyblue;
+            border-radius: 10px;
+            border-width: 20px;
+            width: 80%;
+            padding: 35px;
+            background-color: blueviolet;
+            margin: 15px;
+            margin-left: 200px;
+        }
+
+        #from {
+            text-align: center;
+            margin-left: 800px;
+            font-size: 30px;
+            border-radius: 5px;
+            color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="p1">CIRCLE AREA CALCULATOR</h2>
+    <table cellspacing=2 cellpadding=2 align="center" border=1 class="s1">
+        <form method="get" action="http://localhost:7000/circle_area">
+            <tr>
+                <td>Radius</td>
+                <td><input type="text" name="radius"></td>
+            </tr>
+
+            <input type="submit" value="Calculate Area" id="from">
+        </form>
+    </table>
+</body>
+</html>

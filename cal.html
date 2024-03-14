@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+    <style>
+        body{
+background-color: rgba(115, 0, 255, 0.686);
+        }
+        #p1{
+color:orange;
+text-align: center;
+
+border-radius: 8px;
+border-width: 10px;
+box-shadow: 1px 2px 3px deepskyblue;
+width: 750px;
+margin-left: 550px;
+font-size: 55px;
+        }
+.s1{
+    font-size: 50px;
+    border: 2px orange;
+    box-shadow: 1px 2px 3px deepskyblue;
+    border-radius: 10px;
+    border-width: 20px;
+    width:80%;
+    padding: 35px;
+    background-color:blueviolet;
+    margin: 15px;
+    margin-left: 200px;
+}
+#from{
+    text-align: center;
+    margin-left: 800px;
+    font-size: 30px;
+    border-radius: 5px;
+    color: yellowgreen;
+}
+
+
+        
+    </style>
+</head>
+<body>
+    <h2 id ="p1">SIMPLE INTEREST CALCULATOR</h2>
+<table cellspacing=2 cellpadding=2 align="center" border=1 class="s1">
+<form method="get" action="http://localhost:7000/si" >
+    <tr>
+        <td>Principal</td>
+        <td><input type="text" name="principal"></td>
+    </tr>
+
+    <tr>
+        <td>RateOfInterest</td>
+        <td><input type="text" name="rate"></td>
+    </tr>
+
+    <tr>
+        <td>Time In Years</td>
+        <td><input type="text" name="time"></td>
+        
+    </tr>
+    <input type="submit" value="calculate Simple Interest" id="from">
+    
+</form>
+
+</table>
+
+</body>
+</html>
